@@ -1,0 +1,80 @@
+{
+  "Primary_R2_cutoff": 0.9,
+  "Sensitivity_R2_cutoffs": [
+    0.75,
+    0.85,
+    0.95
+  ],
+  "Final_cohort_n": 2072,
+  "R2_rule": "NED if R2 < cutoff; ED if R2 >= cutoff",
+  "Statistical_verification": {
+    "Numerical_fields_compared": 88,
+    "All_pass": true,
+    "Independent_refit": "Fisher scoring / IRLS implemented without production functions",
+    "Regression_rtol": 1e-06,
+    "Regression_atol": 1e-08,
+    "Cohort_integrity_and_inclusion_checks": true,
+    "Independent_raw_source_reconstruction_exact_ID_match": true,
+    "Proteins_compared_to_native_and_turnover_sources": 2072,
+    "Per_protein_NCLE_length_pLDDT_and_R2_match": true
+  },
+  "Prior_cohort_unchanged": true,
+  "Prior_0_75_and_0_95_results_reproduced": true,
+  "Input_sources": [
+    {
+      "filename": "Christiano_yeast_mmc2.xlsx",
+      "bytes": 439701,
+      "sha256": "b819e33c2fc84ee5c80c0207925e572131aac009ce13e408e45732162e546252"
+    },
+    {
+      "filename": "AF_Yeast_entanglement.pkl",
+      "bytes": 11023900,
+      "sha256": "685ba47126ff04649277cc8f4dcd19701fe3242fa6853441a17a58303f1b60e6"
+    },
+    {
+      "filename": "knot_all.txt",
+      "bytes": 18206448,
+      "sha256": "44a2f00c7a6c63981e513298e44e3e979254c890823afd6005b216f112d6b89f"
+    },
+    {
+      "filename": "AlphaLasso.zip",
+      "bytes": 43996425,
+      "sha256": "ec59f51dd73e62b52fe0f8e2f946c2842c43b65d2526c838141598b841543264"
+    },
+    {
+      "filename": "uniprot_S_cerevisiae_keyword_snapshot_2026_10_10.tsv",
+      "bytes": 2984150,
+      "sha256": "8434ce4cf9db9f358478373d6737239e9ec0937319add583ebea198fb0d14a88"
+    }
+  ],
+  "Runtime": {
+    "Python": "3.12.14",
+    "pandas": "2.2.3",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0"
+  },
+  "Workbook_verification": {
+    "Saved_XLSX_NCLE_result_rows_checked": 8,
+    "Result_values_match_CSV": true,
+    "Workbook_formula_counts_and_crude_OR_CI_match_Python": true,
+    "Saved_XLSX_formula_errors": 0,
+    "All_four_sheets_visually_reviewed": true,
+    "All_3772_source_record_IDs_preserved_in_workbook": true
+  },
+  "Packaging_revision": {
+    "Revision_date": "2026-10-11",
+    "Yeast_partial_download_removed_bytes": 17039360,
+    "Scientific_results_changed": false,
+    "Interpretation_corrections": [
+      "ED-only observations can change odds-ratio denominators",
+      "Yeast poor-fit endpoint differs from McShane NED",
+      "Human membrane and secreted export dates differ"
+    ],
+    "Package": "Yeast_NCLE_ED_NED_analysis",
+    "Scientific_CSVs_byte_identical": 9,
+    "Raw_scientific_files_byte_identical": 6,
+    "Formatted_workbook_byte_identical": true,
+    "Independent_numerical_comparisons": 88,
+    "Independent_numerical_failures": 0
+  }
+}

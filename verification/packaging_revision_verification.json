@@ -1,0 +1,11 @@
+{
+  "Numerical_fields_compared": 88,
+  "All_pass": true,
+  "Independent_refit": "Fisher scoring / IRLS implemented without production functions",
+  "Regression_rtol": 1e-06,
+  "Regression_atol": 1e-08,
+  "Cohort_integrity_and_inclusion_checks": true,
+  "Independent_raw_source_reconstruction_exact_ID_match": true,
+  "Proteins_compared_to_native_and_turnover_sources": 2072,
+  "Per_protein_NCLE_length_pLDDT_and_R2_match": true
+}

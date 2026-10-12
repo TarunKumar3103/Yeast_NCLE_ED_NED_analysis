@@ -1,0 +1,9 @@
+Analysis,Outcome,R2_cutoff,NCLE,NED,ED,Total,NED_fraction
+Primary,NED (R2 < 0.90) vs ED (R2 >= 0.90),0.9,1,29,1536,1565,0.01853035143769968
+Primary,NED (R2 < 0.90) vs ED (R2 >= 0.90),0.9,0,14,493,507,0.027613412228796843
+Cutoff sensitivity,NED (R2 < 0.75) vs ED (R2 >= 0.75),0.75,1,6,1559,1565,0.0038338658146964857
+Cutoff sensitivity,NED (R2 < 0.75) vs ED (R2 >= 0.75),0.75,0,3,504,507,0.005917159763313609
+Cutoff sensitivity,NED (R2 < 0.85) vs ED (R2 >= 0.85),0.85,1,12,1553,1565,0.0076677316293929714
+Cutoff sensitivity,NED (R2 < 0.85) vs ED (R2 >= 0.85),0.85,0,7,500,507,0.013806706114398421
+Cutoff sensitivity,NED (R2 < 0.95) vs ED (R2 >= 0.95),0.95,1,56,1509,1565,0.03578274760383387
+Cutoff sensitivity,NED (R2 < 0.95) vs ED (R2 >= 0.95),0.95,0,24,483,507,0.047337278106508875

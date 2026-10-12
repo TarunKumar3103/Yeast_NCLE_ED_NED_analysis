@@ -1,0 +1,185 @@
+{
+  "files": [
+    {
+      "path": "PACKAGING_REVISION.json",
+      "bytes": 592,
+      "sha256": "de0c90cddc68538a2b607dd3426ba23622c9edb1f5431fd6b247bdab36ea0bca"
+    },
+    {
+      "path": "README.txt",
+      "bytes": 11501,
+      "sha256": "c7095fec26d8d0936843467b22e9561295b41be5686e880fb7727d95d2103448"
+    },
+    {
+      "path": "REPRODUCTION_RECORD.json",
+      "bytes": 2693,
+      "sha256": "f974117f017362a2d7a5a5e2314634765d11a2e12c483ac94fda1da4daed6fb4"
+    },
+    {
+      "path": "Yeast_NCLE_ED_NED_R2_results.xlsx",
+      "bytes": 511181,
+      "sha256": "d6e8ffd9fea5cf7136ed491c033be3f91333f7c34c633f45a0ac0915a2f28f7e"
+    },
+    {
+      "path": "raw_sources/AF_Yeast_entanglement.pkl",
+      "bytes": 11023900,
+      "sha256": "685ba47126ff04649277cc8f4dcd19701fe3242fa6853441a17a58303f1b60e6"
+    },
+    {
+      "path": "raw_sources/AlphaLasso.zip",
+      "bytes": 43996425,
+      "sha256": "ec59f51dd73e62b52fe0f8e2f946c2842c43b65d2526c838141598b841543264"
+    },
+    {
+      "path": "raw_sources/Christiano_yeast_mmc2.xlsx",
+      "bytes": 439701,
+      "sha256": "b819e33c2fc84ee5c80c0207925e572131aac009ce13e408e45732162e546252"
+    },
+    {
+      "path": "raw_sources/knot_all.txt",
+      "bytes": 18206448,
+      "sha256": "44a2f00c7a6c63981e513298e44e3e979254c890823afd6005b216f112d6b89f"
+    },
+    {
+      "path": "raw_sources/uniprot_S_cerevisiae_keyword_snapshot_2026_10_10.tsv",
+      "bytes": 2984150,
+      "sha256": "8434ce4cf9db9f358478373d6737239e9ec0937319add583ebea198fb0d14a88"
+    },
+    {
+      "path": "raw_sources/uniprot_keyword_snapshot_metadata.json",
+      "bytes": 465,
+      "sha256": "f8d806f06e1be5f198504d4cdc161732e9041c069b5ea7fba46de80a8d8c9a40"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 57,
+      "sha256": "59f63e062811d7301d4b753d3a8848b04d03e0267888831d82df7327a74ccc8f"
+    },
+    {
+      "path": "results/all_turnover_record_audit.csv",
+      "bytes": 1908814,
+      "sha256": "3893248510753febaa1e18360b80fcc821d66f1061f37293920bd9e255ab1b47"
+    },
+    {
+      "path": "results/analysis_manifest.json",
+      "bytes": 4478,
+      "sha256": "aa627f9b31ecf18d940442e998669089229dfefa56b2fe717d26efabc5830300"
+    },
+    {
+      "path": "results/association_results.csv",
+      "bytes": 3675,
+      "sha256": "3397239d8b758fad74a75d6ea8a502ace71c3b0d6c08de5fa699f92a058e5fda"
+    },
+    {
+      "path": "results/cohort_flow.csv",
+      "bytes": 754,
+      "sha256": "e8867fde58a8faed0137ea447fe2b1c8c0a20af6bedc275189cbeee3a6bc6d81"
+    },
+    {
+      "path": "results/contingency_counts.csv",
+      "bytes": 783,
+      "sha256": "61935127f5c67fa6c51174ced52f27b2bc37ef91d92903492b6ddc4c109f7fdf"
+    },
+    {
+      "path": "results/covalent_lasso_evidence.csv",
+      "bytes": 5937,
+      "sha256": "f42603c9be7b696740c29f7b536b9e1220d509c1e6a07c48437ba5d9b4fafcda"
+    },
+    {
+      "path": "results/eligible_yeast_cohort.csv",
+      "bytes": 1047712,
+      "sha256": "9f0be6f324cf9348340f5fd863afc04fe37d9562cef9d72311f02db519e15d0e"
+    },
+    {
+      "path": "results/grouped_accession_review.csv",
+      "bytes": 30887,
+      "sha256": "aff34180566926183d774883b32c2aacfdc03874d301b63abebb4d26202e0224"
+    },
+    {
+      "path": "results/model_diagnostics.csv",
+      "bytes": 742,
+      "sha256": "267fa4fe96f58651be2d78d202655a1b81c6234b276ceaab85b0cf03d21cecd2"
+    },
+    {
+      "path": "results/native_annotation_export.csv",
+      "bytes": 11139683,
+      "sha256": "e1e62df78e69f9b40412b49c5eaf264a2ccccdaaf2b0a9e409b7c5ab46ac2097"
+    },
+    {
+      "path": "results/workbook_payload.json",
+      "bytes": 4373170,
+      "sha256": "202f2cac2e058a6e43441758768ea158e95136fcf22e5f0f3eaa7ac293cdae5c"
+    },
+    {
+      "path": "scripts/build_workbook.mjs",
+      "bytes": 13174,
+      "sha256": "ab16343707844e328ec549e2097994c717ffc12d6176ffc61648252b3374d081"
+    },
+    {
+      "path": "scripts/run_yeast_r2.py",
+      "bytes": 16932,
+      "sha256": "46c1c0e2ff8ac4c775fe5c2f14cecb19d5b36a8792be48812d00c923a786967b"
+    },
+    {
+      "path": "scripts/stats_model1.py",
+      "bytes": 4927,
+      "sha256": "1b7829a6d52ab0270a399e4bc7b81a7c89b0e355764d64019414fe50b06b6eac"
+    },
+    {
+      "path": "scripts/verify_results.py",
+      "bytes": 7846,
+      "sha256": "b8230459b9ee80df57c41fc4e8135f0bf2bdcbbd2af217526b3f33a6124b9999"
+    },
+    {
+      "path": "verification/flow_preview.png",
+      "bytes": 188998,
+      "sha256": "5d245b655c4d2d66853b62508e3730f44ff5cdbc9644f9a5563a0e4989259ab1"
+    },
+    {
+      "path": "verification/independent_numerical_checks.csv",
+      "bytes": 6486,
+      "sha256": "04a72138378221a0f10c8395705dc583fe70bd8a39bbc24bc9173598a2230e4c"
+    },
+    {
+      "path": "verification/models_preview.png",
+      "bytes": 300053,
+      "sha256": "149529f662d2ab2903ba89faaab863e175311e61760c6dcb143c3f3816b3a386"
+    },
+    {
+      "path": "verification/packaging_revision_verification.json",
+      "bytes": 430,
+      "sha256": "6e4544fd7cc7712859ae4ce8111c669df9b6fba6f5960c353189a7d9340de32f"
+    },
+    {
+      "path": "verification/records_preview.png",
+      "bytes": 101930,
+      "sha256": "f098f086b20df1da34dc0f6336d2f4d3b7b2e64cd288c36baf879fabe9c69a5f"
+    },
+    {
+      "path": "verification/results_preview.png",
+      "bytes": 294948,
+      "sha256": "d12b2a946cf44fc95fe33939cff6b093b5c8ae1754c09c357e13997437998971"
+    },
+    {
+      "path": "verification/sources_preview.png",
+      "bytes": 138829,
+      "sha256": "a4965cfac5db594406fd1fc630602b1075d52a7b4d2688434d1b34c6935cac01"
+    },
+    {
+      "path": "verification/verification_summary.json",
+      "bytes": 430,
+      "sha256": "6e4544fd7cc7712859ae4ce8111c669df9b6fba6f5960c353189a7d9340de32f"
+    },
+    {
+      "path": "verification/workbook_inspection.ndjson",
+      "bytes": 1165,
+      "sha256": "33f9ee7467fd9da4ee32fa10f599462c26db7cee7fc87de00402219a3fddb6af"
+    },
+    {
+      "path": "verification/workbook_verification.json",
+      "bytes": 285,
+      "sha256": "6ecc3dfc128597adbb9e51979c0f9e6a11bd394dd726fe36e217c2fa9f5e6405"
+    }
+  ],
+  "packaging_revision_date": "2026-10-11"
+}

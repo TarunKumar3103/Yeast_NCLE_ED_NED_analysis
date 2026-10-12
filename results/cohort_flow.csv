@@ -1,0 +1,10 @@
+Step,Remaining,Removed_at_step,NCLE_1,NCLE_0,NCLE_missing,NED_0_9,NED_0_75,NED_0_85,NED_0_95
+All turnover source records,3772,0,2591,1068,113,96,17,45,181
+Retain unambiguous single-accession turnover records,3672,100,2591,1068,13,96,17,45,179
+Require exact native-annotation accession match,3659,13,2591,1068,0,94,17,43,176
+Retain supplied mean pLDDT >=70,2896,763,2125,771,0,62,13,29,116
+Exclude supplied knotted proteins,2879,17,2111,768,0,62,13,29,116
+Exclude supplied covalent-lasso proteins,2852,27,2102,750,0,62,13,29,115
+Require coverage in frozen UniProt keyword snapshot,2852,0,2102,750,0,62,13,29,115
+Exclude UniProt Membrane keyword KW-0472,2089,763,1581,508,0,45,9,20,83
+Exclude UniProt Secreted keyword KW-0964,2072,17,1565,507,0,43,9,19,80

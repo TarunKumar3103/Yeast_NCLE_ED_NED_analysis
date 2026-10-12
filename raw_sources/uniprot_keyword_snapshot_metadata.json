@@ -1,0 +1,11 @@
+{
+  "requested_at_utc": "2026-10-10T04:27:39.223000+00:00",
+  "query": "taxonomy_id:4932",
+  "url": "https://rest.uniprot.org/uniprotkb/stream?query=taxonomy_id%3A4932&format=tsv&fields=accession%2Corganism_id%2Corganism_name%2Clength%2Ckeywordid%2Ckeyword",
+  "response_headers": {
+    "Content-Type": "text/plain;format=tsv",
+    "Date": "Sat, 10 Oct 2026 04:27:26 GMT",
+    "X-UniProt-Release": "2026_03",
+    "X-UniProt-Release-Date": "02-September-2026"
+  }
+}

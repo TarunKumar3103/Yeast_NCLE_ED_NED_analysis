@@ -1,0 +1,16 @@
+{
+  "Revision_date": "2026-10-11",
+  "Yeast_partial_download_removed_bytes": 17039360,
+  "Scientific_results_changed": false,
+  "Interpretation_corrections": [
+    "ED-only observations can change odds-ratio denominators",
+    "Yeast poor-fit endpoint differs from McShane NED",
+    "Human membrane and secreted export dates differ"
+  ],
+  "Package": "Yeast_NCLE_ED_NED_analysis",
+  "Scientific_CSVs_byte_identical": 9,
+  "Raw_scientific_files_byte_identical": 6,
+  "Formatted_workbook_byte_identical": true,
+  "Independent_numerical_comparisons": 88,
+  "Independent_numerical_failures": 0
+}

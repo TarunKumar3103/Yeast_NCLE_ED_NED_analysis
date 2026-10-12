@@ -1,0 +1,138 @@
+{
+  "Status": "Quyen-approved operational R2-based ED/NED classification",
+  "Species": "Saccharomyces cerevisiae",
+  "Final_N": 2072,
+  "Model": "NED ~ NCLE + z(Protein_length)",
+  "Primary_R2_cutoff": 0.9,
+  "R2_cutoffs": [
+    0.9,
+    0.75,
+    0.85,
+    0.95
+  ],
+  "Classification": "NED=1 if R2 < cutoff; ED=0 if R2 >= cutoff; exactly the cutoff is ED",
+  "Interpretation": "Poor single-exponential fit is an operational NED label, not confirmation of bi-exponential kinetics or misfolding",
+  "Length_source": "Supplied length_AF, preserved even if current UniProt length differs",
+  "Quality_source": "Supplied plddt interpreted as protein mean; values not recomputed",
+  "Length_z_definition": "Within eligible cohort, sample SD ddof=1",
+  "NCLE_coding": "Supplied entanglement_AF Yes=1, No=0; separate knot/covalent exclusions",
+  "Membrane_definition": "Presence of UniProt keyword KW-0472",
+  "Secreted_definition": "Presence of UniProt keyword KW-0964",
+  "Keywords_source": "Frozen live UniProt taxonomy_id:4932 snapshot; all retained IDs covered",
+  "No_disorder_filter": true,
+  "No_complex_covariate": true,
+  "R2_outcomes": [
+    "R2<0.90",
+    "R2<0.75",
+    "R2<0.85",
+    "R2<0.95"
+  ],
+  "Multiple_testing_adjustment": "None; primary 0.90 and all three cutoff-sensitivity results reported without selecting by P-value",
+  "Native_source_rows": 6039,
+  "Native_source_NCLE_counts": {
+    "1": 3828,
+    "0": 2211
+  },
+  "Native_pLDDT_ge70": 4264,
+  "Current_UniProt_length_mismatches_in_cohort": 1,
+  "Nonnumeric_corrected_rates_in_cohort": 40,
+  "Input_sources": [
+    {
+      "filename": "Christiano_yeast_mmc2.xlsx",
+      "bytes": 439701,
+      "sha256": "b819e33c2fc84ee5c80c0207925e572131aac009ce13e408e45732162e546252"
+    },
+    {
+      "filename": "AF_Yeast_entanglement.pkl",
+      "bytes": 11023900,
+      "sha256": "685ba47126ff04649277cc8f4dcd19701fe3242fa6853441a17a58303f1b60e6"
+    },
+    {
+      "filename": "knot_all.txt",
+      "bytes": 18206448,
+      "sha256": "44a2f00c7a6c63981e513298e44e3e979254c890823afd6005b216f112d6b89f"
+    },
+    {
+      "filename": "AlphaLasso.zip",
+      "bytes": 43996425,
+      "sha256": "ec59f51dd73e62b52fe0f8e2f946c2842c43b65d2526c838141598b841543264"
+    },
+    {
+      "filename": "uniprot_S_cerevisiae_keyword_snapshot_2026_10_10.tsv",
+      "bytes": 2984150,
+      "sha256": "8434ce4cf9db9f358478373d6737239e9ec0937319add583ebea198fb0d14a88"
+    }
+  ],
+  "Runtime": {
+    "Python": "3.12.14",
+    "pandas": "2.2.3",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0"
+  },
+  "Model_diagnostics": [
+    {
+      "Analysis": "Primary",
+      "R2_cutoff": 0.9,
+      "Events": 43,
+      "Non_events": 2029,
+      "Exactly_at_cutoff": 0,
+      "Smallest_2x2_cell": 14,
+      "N": 2072,
+      "Status": "ok",
+      "Mean_length": 465.98696911196913,
+      "SD_length_ddof1": 333.0104093159542,
+      "Log_likelihood": -207.7986776791406,
+      "Max_abs_score": 3.2591426224470865e-09,
+      "Information_condition_number": 12.780266670624888,
+      "Iterations": 4
+    },
+    {
+      "Analysis": "Cutoff sensitivity",
+      "R2_cutoff": 0.75,
+      "Events": 9,
+      "Non_events": 2063,
+      "Exactly_at_cutoff": 0,
+      "Smallest_2x2_cell": 3,
+      "N": 2072,
+      "Status": "ok",
+      "Mean_length": 465.98696911196913,
+      "SD_length_ddof1": 333.0104093159542,
+      "Log_likelihood": -57.28283666029111,
+      "Max_abs_score": 1.386006110229432e-13,
+      "Information_condition_number": 14.63910770651713,
+      "Iterations": 5
+    },
+    {
+      "Analysis": "Cutoff sensitivity",
+      "R2_cutoff": 0.85,
+      "Events": 19,
+      "Non_events": 2053,
+      "Exactly_at_cutoff": 0,
+      "Smallest_2x2_cell": 7,
+      "N": 2072,
+      "Status": "ok",
+      "Mean_length": 465.98696911196913,
+      "SD_length_ddof1": 333.0104093159542,
+      "Log_likelihood": -107.31276899100803,
+      "Max_abs_score": 3.1007082665346353e-10,
+      "Information_condition_number": 10.35172757589392,
+      "Iterations": 4
+    },
+    {
+      "Analysis": "Cutoff sensitivity",
+      "R2_cutoff": 0.95,
+      "Events": 80,
+      "Non_events": 1992,
+      "Exactly_at_cutoff": 0,
+      "Smallest_2x2_cell": 24,
+      "N": 2072,
+      "Status": "ok",
+      "Mean_length": 465.98696911196913,
+      "SD_length_ddof1": 333.0104093159542,
+      "Log_likelihood": -337.96790910450204,
+      "Max_abs_score": 7.334713691964367e-07,
+      "Information_condition_number": 12.911264628309329,
+      "Iterations": 3
+    }
+  ]
+}
